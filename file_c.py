@@ -7,11 +7,7 @@ CORS(app)
 
 # TinyFish Agent Wrapper Function
 def run_tinyfish_agent(target_url):
-    """
-    TinyFish autonomous web agent jo background headless browser launch
-    karke target site ke links, checkout modals aur Terms & Conditions
-    ko traverse karta hai.
-    """
+    
     print(f"[TinyFish Agent] Launching autonomous browser for: {target_url}")
     time.sleep(1.5)  # Simulate browser navigation & DOM extraction
     
